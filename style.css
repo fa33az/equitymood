@@ -10,6 +10,18 @@
     color: #f4f4f5; /* Zinc 100 */
 }
 
+/* Hide Streamlit default UI chrome */
+header[data-testid="stHeader"],
+#MainMenu,
+footer,
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+[data-testid="stStatusWidget"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+}
+
 /* Modern Container Cards */
 .metric-card {
     background-color: #18181b; /* Zinc 900 */
