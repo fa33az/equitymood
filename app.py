@@ -641,3 +641,23 @@ if auto_refresh:
         time.sleep(1)
     st.cache_data.clear()
     st.rerun()
+
+# ─── Footer ──────────────────────────────────────────────────────────────────
+st.markdown("""
+<div style="
+    margin-top: 60px;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #52525b;
+    border-top: 1px solid #27272a;
+">
+    Made by&nbsp;
+    <a href="https://github.com/fa33az" target="_blank" style="
+        color: #ef4444;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+    ">fa33az</a>
+</div>
+""", unsafe_allow_html=True)
